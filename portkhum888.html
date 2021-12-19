@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('profile_girl.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Nawarat kanthalee</b></h1>
+    <p>Student.</p>
+    <div class="w3-padding-32 w3-content" id="portfolio">
+        <h2 class="w3-text-grey">My Portfolio</h2>
+        <hr class="w3-opacity">
+    <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/244998459_1786093568229331_3615492016974974309_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEaL6hTjBhCEIwLTieJG9t2z0Zzv9J4JWLPRnO_0nglYnGUQVE4HBlP_FuuFkDZvDPDISD64koJA9G7Zpj9xRrM&_nc_ohc=a2N1nXqZsLgAX_mnhN2&_nc_ht=scontent.fcnx3-1.fna&oh=00_AT9FhbDz3x-EfKpM3hwGY0ldOZubdxm41-FsNC_u6ojwWQ&oe=61C391CE"height =400>
+    <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t1.18169-9/25550430_787167521455279_7798834683948101121_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFEfV4mTKLlm7silRXaSHzecFsHQBPEFfRwWwdAE8QV9DA6w9PW8QXguu0J0jHiko2apBdAqMM2ZWh46l4vlpMq&_nc_ohc=QbMDcL7C1DIAX88-uXE&_nc_ht=scontent.fcnx3-1.fna&oh=00_AT9yHEU_Q06iNYXo77LLgx_9hPedvmslvUjV6zAIKOimqg&oe=61E58CD1"height =350>
+    
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+      </div>
+      <div class="w3-half">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About me</h2>
+    <hr class="w3-opacity">
+    <p>(Portfolio) นี้ ข้าพเจ้าจัดทําขึ้นเพื่อเป็นตัวแทนนําเสนอเอกสารข้อมูลเกี่ยวกับ 
+        ประวัติส่วนตัว ประวัติการศึกษา ความรู้ความสามารถ ทักษะ และ ความสนใจพิเศษ 
+        ตลอดจนพัฒนาการทางด้านต่างๆของข้าพเจ้า ข้าพเจ้าหวังว่าแฟ้มสะสมผลงานฉบับนี้จะทําให้ทุกท่านที่อ่านได้เห็นคุณค่าและความสามารถ
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Drums</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">languae_computer</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:55%">55%</div>
+    </div>
+    <p class="w3-wide"></p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">ประวัติส่วนตัว</h3>
+    <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t1.6435-9/123956370_1541219312716759_4945679819286788515_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeG7u7XsUzilHhjeLYUY0JNbQjxJpNsKAihCPEmk2woCKAGDyhwK_2n1R83FE8pXS8p_Nkw-nRFgQqSqonktYZ9z&_nc_ohc=eXAkErZ-86gAX_P3FAm&_nc_ht=scontent.fcnx3-1.fna&oh=00_AT8pV9221YAhnO8Sg2jWpN17S8j-A6uXEkhxuQwpKSnf1g&oe=61E63EA0"class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">ชื่อ นวรัตณ์ กันทาหลี</span> Student</p>
+    <p>ชั้นปีที่2 รหัสนักศึกษา6304101342</p><br>
+   
+    <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t1.6435-9/140683508_1600295336809156_3698423508550764561_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEoa9w-owmVxNFaj27I8VD9kMmoYA8_2fGQyahgDz_Z8bZE5GsVgJrheBOMmn7AGa9WpUNPt0W0HJ2k0utwqeKp&_nc_ohc=v0gVyCmjQ5UAX-GV5Vp&_nc_ht=scontent.fcnx3-1.fna&oh=00_AT9Z31j5X99-wsbbwFmYWYlzUFZnHwwk4AqtbiRTCO168A&oe=61E3A4DF"class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">ชื่อเล่น ขุม</span> อายุ 20ปี</p>
+    <p>สถานะปัจจุบันศึกษากำลังศึกษาอยู่</p><br>
+    
+    <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t1.6435-9/99424389_1397288787109813_1746553338591182848_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGVEp2c6t_KKg__F6UkSHLUJhp-qty-WlomGn6q3L5aWthGwjL3Y5KTOAjsGgBaymxikqT7a02BmrHcvlnrzm-J&_nc_ohc=W0rg8l1i_iIAX8W4o0O&_nc_ht=scontent.fcnx3-1.fna&oh=00_AT956AioptYJm73QYmbHCO1DFG-F0muNK-3nTrwnvBV-wg&oe=61E54181" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">.</span> ความต้องการ</p>
+    <p>ความสนใจพิเศษภาษาอังกฤษ คอมพิวเตอร์ เพลง</p><br>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">My Education</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">มัธยมต้น-มัธยมปลาย</li>
+          <li class="w3-padding-16">โรงเรียนเทพบดินทร์วิทยาเชียงใหม่</li>
+          <li class="w3-padding-16">ศึกษาตั้งแต่ ม.1-ม.6</li>
+          <li class="w3-padding-16">สายวิทย์-คณิต</li>
+          <li class="w3-padding-16"></li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">มหาวิทยาลัยฯ</li>
+          <li class="w3-padding-16">มหาวิทยาลัยฯแม่โจ้</li>
+          <li class="w3-padding-16">ศึกษาตั้งแต่ปีที่1-ปีที่4</li>
+          <li class="w3-padding-16">สาขาวิชาวิทยาการคอมพิวเตอร์</li>
+
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chaingmai, TH</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +66 7778899</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: navarat250744@mail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="https://cdn.pixabay.com/photo/2021/12/08/19/34/laptop-6856557_960_720.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+    <h3 class="w3-padding-16">ความสามารถพิเศษ</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32"><h3 class="w3-padding-16">My Skill.</h3>
+            <div class="w3-row-padding" style="margin:0 -16px">
+              <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                  <li class="w3-dark-grey w3-xlarge w3-padding-32">มัธยมต้น-มัธยมปลาย</li>
+                  <li class="w3-padding-16">-เข้าร่วมวงโยธวาทิต</li>
+                  <li class="w3-padding-16">-สามารถเล่นกลองชุด</li>
+                  <li class="w3-padding-16">-สามารถเล่นกลองสแนร์มาร์จชิ่ง</li>
+                  <li class="w3-padding-16"></li>
+                </ul>
+              </div></li>
+          <li class="w3-padding-16">ความสนใจทางด้านภาษาต่างประเทศ</li>
+        </ul>
+      </div>
+    
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+       <li class="w3-padding-16">ขุม คับบบ</li>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+       <li class="w3-padding-16">khumqx</li>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
